@@ -1,5 +1,4 @@
-# Logs
-logs
+# Log files
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,10 +6,17 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+
+# Build output
 dist
 dist-ssr
+
+# Local config
 *.local
+.env
+.env.development
 
 # Editor directories and files
 .vscode/*
@@ -23,10 +29,6 @@ dist-ssr
 *.sln
 *.sw?
 
-.env
-
-
 # Scripts
 *.sh
 !env.sh
-.env.development
